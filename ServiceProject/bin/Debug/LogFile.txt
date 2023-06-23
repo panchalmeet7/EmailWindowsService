@@ -1,0 +1,8 @@
+6/23/2023 4:16:42 PM:.Net SqlClient Data Provider;Cannot open database "DemoProjectDB" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\SYSTEM'.
+6/23/2023 4:37:51 PM:.Net SqlClient Data Provider;Cannot open database "DemoProjectDB" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\SYSTEM'.
+6/23/2023 4:46:35 PM:.Net SqlClient Data Provider;Cannot open database "DemoProjectDB" requested by the login. The login failed.
+Login failed for user 'NT AUTHORITY\SYSTEM'.
+6/23/2023 4:53:35 PM:mscorlib;Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+6/23/2023 4:55:13 PM:mscorlib;Index (zero based) must be greater than or equal to zero and less than the size of the argument list.

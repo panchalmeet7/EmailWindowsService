@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -33,12 +34,10 @@ namespace ServiceProject
 
         public void ScheduleService()
         {
-            Debugger.Launch();
-
             try
             {
                 DateTime now = DateTime.Now;
-                DateTime scheduleTime = DateTime.Parse("18:00");
+                DateTime scheduleTime = DateTime.Parse("17:50");
 
                 if (now > scheduleTime)
                 {
@@ -61,10 +60,11 @@ namespace ServiceProject
             {
                 using (MailMessage mail = new MailMessage())
                 {
-                    mail.From = new MailAddress("meetpanchal194@gmail.com");
+                    mail.From = new MailAddress("panchalmeet1302@gmail.com");
                     mail.To.Add("meetpanchal194@gmail.com");
-                    mail.Subject = "suject";
-                    mail.Body = "body";
+                    mail.Subject = "Reminder!";
+                    mail.Body = "Oh hey there! Dont Forget to Fill the worklog in the workspace!";
+                    
                     using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                     {
                         smtp.Credentials = new NetworkCredential("meetpanchal194@gmail.com", "ksdqxndnbbsofpyz");
