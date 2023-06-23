@@ -1,0 +1,10 @@
+D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe.config
+D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.pdb
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.csproj.SuggestedBindingRedirects.cache
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.ProjectInstaller.resources
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.csproj.GenerateResource.cache
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.csproj.CoreCompileInputs.cache
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.exe
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.pdb
+D:\.net\ServiceProject\ServiceProject\obj\Debug\ServiceProject.csproj.AssemblyReference.cache

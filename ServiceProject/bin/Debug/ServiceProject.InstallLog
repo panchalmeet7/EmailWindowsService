@@ -1,0 +1,117 @@
+﻿Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Service EmailService has been successfully installed.
+Creating EventLog source EmailService in log Application...
+Committing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
+Installing assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Installing service EmailService...
+Creating EventLog source EmailService in log Application...
+Rolling back assembly 'D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.InstallLog
+   assemblypath = D:\.net\ServiceProject\ServiceProject\bin\Debug\ServiceProject.exe
+Restoring event log to previous state for source EmailService.
