@@ -21,12 +21,14 @@ namespace ServiceProject
     {
         public Timer ScheduleTimer;
 
+        #region User Emails Object
         List<string> recipientEmails = new List<string>
         {
             "panchalmeet1302@gmail.com",
             "panchalpriti714@gmail.com",
             "npsmtp217@gmail.com"
         };
+        #endregion
 
         public Service1()
         {
@@ -40,6 +42,14 @@ namespace ServiceProject
             threadStart.Start();
         }
 
+        protected override void OnStop()
+        {
+            ScheduleTimer.Dispose();
+        }
+
+        /// <summary>
+        /// This function compares scheduleTime with current datetime if it matches then and then SendMail function will get called
+        /// </summary>
         public void ScheduleService()
         {
             try
@@ -62,6 +72,11 @@ namespace ServiceProject
             }
         }
 
+        #region Send Email Code Function
+        /// <summary>
+        ///  Send Email with given subject and message. 
+        /// </summary>
+        /// <param name="e"></param>
         public void SendMail(object e)
         {
             try
@@ -100,7 +115,13 @@ namespace ServiceProject
                 WriteErrorLog(ex);
             }
         }
+        #endregion
 
+
+        /// <summary>  
+        /// This function write log to LogFile.text when some error occurs.  
+        /// </summary>  
+        /// <param name="ex"></param>  
         public static void WriteErrorLog(Exception ex)
         {
             StreamWriter streamWriter = null;
@@ -117,6 +138,10 @@ namespace ServiceProject
             }
         }
 
+        /// <summary>  
+        /// This function write Message to log file.  
+        /// </summary>  
+        /// <param name="Message"></param> 
         public static void WriteErrorLog(string message)
         {
             StreamWriter streamWriter = null;
@@ -133,9 +158,6 @@ namespace ServiceProject
             }
         }
 
-        protected override void OnStop()
-        {
-            ScheduleTimer.Dispose();
-        }
+       
     }
 }
