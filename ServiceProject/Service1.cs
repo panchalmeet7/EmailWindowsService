@@ -20,6 +20,14 @@ namespace ServiceProject
     public partial class Service1 : ServiceBase
     {
         public Timer ScheduleTimer;
+
+        List<string> recipientEmails = new List<string>
+        {
+            "panchalmeet1302@gmail.com",
+            "panchalpriti714@gmail.com",
+            "npsmtp217@gmail.com"
+        };
+
         public Service1()
         {
             InitializeComponent();
@@ -37,7 +45,7 @@ namespace ServiceProject
             try
             {
                 DateTime now = DateTime.Now;
-                DateTime scheduleTime = DateTime.Parse("17:50");
+                DateTime scheduleTime = DateTime.Parse("09:40");
 
                 if (now > scheduleTime)
                 {
@@ -61,10 +69,23 @@ namespace ServiceProject
                 using (MailMessage mail = new MailMessage())
                 {
                     mail.From = new MailAddress("panchalmeet1302@gmail.com");
-                    mail.To.Add("meetpanchal194@gmail.com");
+                    foreach (string email in recipientEmails)
+                    {
+                        mail.To.Add(email);
+                    }
+
                     mail.Subject = "Reminder!";
-                    mail.Body = "Oh hey there! Dont Forget to Fill the worklog in the workspace!";
-                    
+                    mail.IsBodyHtml = true;
+                    string htmlBody;
+                    htmlBody = @"<html>
+                      <body>
+                      <h1>Reminder!!</h1>
+                      <h3> Don't Forget to fill your attandance!! </h3>
+                      </body>
+                      </html>
+                     ";
+                    mail.Body = htmlBody;
+
                     using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
                     {
                         smtp.Credentials = new NetworkCredential("meetpanchal194@gmail.com", "ksdqxndnbbsofpyz");
